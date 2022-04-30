@@ -1,7 +1,12 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "noEmit": true
+    "noEmit": true,
+     "lib": [
+         "es5",
+         "es6",
+         "ES2020"
+      ],
   },
   "include": [
     "src/**/*",

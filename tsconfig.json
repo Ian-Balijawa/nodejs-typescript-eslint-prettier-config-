@@ -3,7 +3,11 @@
     "incremental": true,
     "target": "ES2020",
     "module": "commonjs",
-    "lib": [],
+      "lib": [
+         "es5",
+         "es6",
+         "ES2020"
+      ],
     "outDir": "build/",
     "strict": true,
     "moduleResolution": "node",
